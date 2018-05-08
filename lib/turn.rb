@@ -26,8 +26,6 @@ def move(array, choice, character = "X")
   array[choice] = character
 end
 
-
-  
 def turn(board)
   puts "Please enter 1-9:"
   choice = gets.strip
